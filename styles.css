@@ -1,0 +1,177 @@
+body{
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 100;
+
+}
+#title {
+  background-color: #32e0c4;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #222831;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+}
+h3{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 3% 15%;
+
+
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 20px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.download{
+  margin: 15px 15px 70px 0;
+
+}
+.iphone{
+
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 20px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 140px;
+
+
+}
+#features{
+  background-color: white;
+  position: relative;
+
+  /* z-index: -1; */
+}
+
+.icon{
+
+  display: block;
+  font-size:48px;
+  color:#32e0c4;
+  text-align: center;
+
+}
+.icon:hover{
+  color:#222831;
+}
+.new{
+  padding: 30px;
+}
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color:#32e0c4;
+  color: white;
+
+
+}
+.testimonial-image{
+  border-radius: 150px;
+  width: 15%;
+  margin: 30px;
+}
+.carousel-inner{
+  padding: 3% 15%;
+}
+#press{
+  background-color:#32e0c4;
+  padding: 40px 10px 40px 10px;
+  text-align: center;
+
+}
+.logos{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px 100px 40px 100px;
+  text-align: center;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* call to action section */
+#cta .container-fluid{
+  text-align: center;
+  background-color: #32e0c4;
+}
+
+#cta h3{
+  font-size: 2em;
+  padding: 50px 70px;
+}
+#footer .container-fluid{
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+.icon2{
+
+  display: block;
+  font-size: 30px;
+
+}
+
+
+/* android adjustments */
+@media (max-width:1000px) {
+  body{
+    text-align: center;
+  }
+  #title{
+    text-align: center;
+  }
+  .iphone{
+   position: static;
+   transform: rotate(0);
+   width: 40%;
+   position: relative;
+   right: 30px;
+  }
+  .download{
+    margin-bottom: 5px;
+  }
+  .nav-link{
+    text-align:left;
+  }
+  #testimonials h2{
+    font-size: 1.6rem;
+  }
+  #cta h3{
+    padding: 40px 15px;
+
+  }
+  .icon2{
+
+
+    font-size: 20px;
+
+  }
+}
